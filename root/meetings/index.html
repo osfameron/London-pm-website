@@ -1,100 +1,89 @@
 [%- PROCESS "includes/helpers" -%]
 [% WRAPPER page 
-    title => "Information about meetings",
+    title => "Information About Meetings",
     keywords => "keywords",
     section => "meetings",
 %]
 
+	<h2>The Different Kinds of Meetings</h2>
 
+	<p>London.pm organises several kind of in-person meetups:
+		<ul>
+			<li><strong>Social Meetings</strong> once a month</li>
+			<li><strong>Technical Meetings</strong> every two months</li>
+			<li><strong>Ad-hoc Meetings</strong> typically when out-of-town visting Perl Mongers are in in town</li>
+			<li><strong>Conferences</strong> such as the <a href="http://act.yapc.eu/lpw2012/">London Perl Workshop</a></li>
+	</p>
 
- 	<h2>When do meetings take place?</h2><div class="item">
-		<p>Social meetings are held on the day after the first Wednesday of every month;
-		'heretic' (see <a href="/about/faq.html#heretics">the FAQ</a>) and technical meetings (usually bi-monthly) are scheduled as below.  Our calendar is available as <a href="/london.pm.ics">iCal</a> or <a href="/london.pm.atom">Atom</a> feeds.</p>
-		<p>Please come and join us if you have any interest in Perl and live in,
-		work in, or can be in London on the night of the meeting.</p>
+	<h2>Forthcoming Meetings</h2>
 
-	</div>
-	
-	<h2>Forthcoming meetings</h2><div class="item">
+	<div class="item">
 		<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=400&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=tge27p54mq26g6r1op26bpj5n4%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FLondon" style=" border-width:0 " width="800" height="300" frameborder="0" scrolling="no"></iframe>
 
 	</div>
-<p></p>	
-	
-	<h2>What time do meetings start?</h2><div class="item">
-		<p>Social meetings start after work, e.g. when people get there, 
-		usually starting around 6pm (although some people often don't arrive until around 8.30pm).</p>
-		<p>Technical meetings tend to have a 6:30 pm for 7pm start,
-		so people travelling have time to get there - though
-		we'll still let you in if you arrive later.
-		A gathering
-		of 'early birds' can sometimes be found at a local bar.</p>
-	</div>
-	
-	
 
+	<p>Forthcoming meetings are announced on the <a href="/mailman/listinfo/london.pm-announce">announce mailing list</a></p>
 
-[%#
-<h2>What happens at these meetings?</h2><div class="item">
-	<p><a href="/meetings/previous.html">Have a look at pictures and comments from some of our previous meetings</a></p>
-	<p><a href="/tech_talks/">Here are links to talks given at previous technical meetings.</a></p>
-</div>
+	<h2>Social Meetings</h2>
 
+	<p>Social meetings happen every month on the day after the first Wednesday
+		of the month (i.e. the first Thursday of the month that doesn't land
+		on the very first day of the month.)</p>
 
-	<h2>Locations: meetings have been held here:</h2><div class="item">
-        <p>
-            <a href="/meetings/locations/angel_pub.html">The Angel</a><br/>
-            <a href="/meetings/locations/theanchor.html">The Anchor</a><br/>
-            <a href="/meetings/locations/antelope.html">The Antelope</a><br/>
-	    <a href="/meetings/locations/bavarian_beerhouse.html">The Bavarian Beerhouse</a><br/>
-	    <a href="/meetings/locations/bridge_house.html">Bridge House</a><br/>
-	    <a href="/meetings/locations/bupa_house.html">BUPA House</a><br/>
-            <a href="/meetings/locations/calthorpe.html">The Calthorpe Arms</a><br/>
-            <a href="/meetings/locations/chuen_cheng_ku.html">Chuen Cheng Ku</a> (dim sum location)<br/>
-	    <a href="/meetings/locations/cittieofyorke.html">Cittie of Yorke</a><br/>
-            <a href="/meetings/locations/the_clachan">The Clachan</a><br/>		
-            <a href="/meetings/locations/codix.html">Codix.net</a><br/>
-	    <a href="/meetings/locations/the_college_arms.html">The College Arms</a><br/>
-	    <a href="/meetings/locations/conway_hall.html">Conway Hall</a><br/>
-	    <a href="/meetings/locations/crown_tavern.html">The Crown Tavern</a><br/>
-	    <a href="/meetings/locations/crosse_keys.html">The Crosse Keys</a><br/>
-	    <a href="/meetings/locations/dirty_dicks.html">Dirty Dicks</a><br/>
-            <a href="/meetings/locations/doggetts.html">Doggetts</a><br/>
-            <a href="/meetings/locations/edgar_wallace.html">Edgar Wallace</a><br/>
-	    <a href="/meetings/locations/factset.html">FactSet</a><br/>
-	    <a href="/meetings/locations/founders_arms.html">Founder's Arms</a><br/>
-	    <a href="/meetings/locations/fotango.html">Fotango</a><br/>
-            <a href="/meetings/locations/grafton_arms.html">The Grafton Arms, Fitzovia</a><br />
-            <a href="/meetings/locations/henandchickens.html">The Hen And Chickens</a><br/>
-            <a href="/meetings/locations/the_john_snow.html">The John Snow</a><br />
-	    <a href="/meetings/locations/knights_templar.html">Knights Templar</a><br/>
-            <a href="/meetings/locations/maple_leaf.html">The Maple Leaf</a><br/>
-            <a href="/meetings/locations/morg.html">Morgan Stanley</a><br/>
-            <a href="/meetings/locations/new-world.html">New World</a> (dim sum location)<br/>
-            <a href="/meetings/locations/the_peasant.html">The Peasant</a><br />
-            <a href="/meetings/locations/penderel.html">Penderel's Oak</a><br/>
-            <a href="/meetings/locations/pillars_of_hercules.html">Pillars of Hercules</a><br/>
-	    <a href="/meetings/locations/prince_arthur.html">Prince Arthur</a><br />
-	    <a href="/meetings/locations/profero.html">Profero</a><br/>
-            <a href="/meetings/locations/porterhouse.html">Porterhouse</a><br/>
-            <a href="/meetings/locations/shooting_star.html">Shooting Star</a><br/>
-            <a href="/meetings/locations/star_belgravia.html">Star of Belgravia</a><br/>
-            <a href="/meetings/locations/state51.html">State 51</a><br/>
-            <a href="/meetings/locations/st_stephens_tavern.html">St Stephens Tavern</a><br/>
-            <a href="/meetings/locations/suntavern.html">The Sun Tavern</a><br/>
-            <a href="/meetings/locations/the_slaughtered_lamb.html">The Slaughtered Lamb</a><br />
-            <a href="/meetings/locations/threecups.html">Three Cups</a><br/>
-            <a href="/meetings/locations/new_cavendish_street.html">Westminster Univerity, New Cavendish Street Campus</a><br/>
-            <a href="/meetings/locations/the_white_hart.html">The White Hart</a><br/>
-            <a href="/meetings/locations/wildeman.html">Wildeman In</a> - Amsterdam<br/>
-            <a href="/meetings/locations/windmill.html">The Windmill</a><br/>
-	    <a href="/meetings/locations/windsor_castle.html">The Windsor Castle</a><br />
-            <a href="/meetings/locations/yahoo.html">Yahoo</a><br/>
-        </p>
-<!-- 		<p>The <a href="cal2003.html">provisional schedule for -->
-<!-- meetings</a> for 2003 is also available here.</p> -->
-	</div>
-%]
+	<p>Social meet are a chance for the various members of the group to meet
+	up face to face and chat with each other about things - both Perl and
+	(mostly) non-Perl - and newcomers are more than welcome. The monthly
+	meets tend to be bigger than the other ad hoc meetings that take place
+	at other times, and we make sure that they're in easy to get to
+	locations and the pub serves food (meaning that people can eat in the
+	bar if they want to). They normally start around 6.30pm (or whenever
+	people get there after work) and a group tends to be left come closing
+	time.</p>
+
+	<p>If you're a newcomer or other first timer (even if you've been lurking
+	on the mailing list or on IRC) then please seek our Glorious Leader Tom
+	out - we have a tradition that the leader of this motley crew buys the
+	new people a drink and introduces them to people.</p>
+
+	<h2>Technical Meetings</h2>
+
+	<p>Technical meetings happen every two months.  They take place in the evening, typically starting around 6:30pm - 7pm and lasting little over a couple of hours.</p>
+	<p>The technical meetings are a chance to find out what has been going on in
+	the Perl community, what techniques people are using and how Perl integrates
+	with other software.  They consist of numerous technical presentations given
+	by members of the group or by guest speakers on Perl or topics that might interest
+	Perl programmers.  In some respects they can be thought of as a very
+	small conference.</p>
+
+	<p>Techmeets usually occur in larger office spaces graciously donated for the evening by the employers of Perl friendly companies.  As such we often have to ask attendees to sign up via a free web form in advanced to comply with the security policies of the venues.</p>
+
+	<p>First time speakers are highly encouraged at techmeets (even if all you
+		want to give is a five minute 'lightning' talk.)  A call for
+		participation is posted to the main list some time prior to the tech
+		meet itself.</p>
+
+	<h2>Ad-Hoc Meetings</h2>
+
+	<p>Ad-Hoc meetings are normally organised when a Perl Monger from out of
+		town is in London on a day other than the social meetings.  They also
+		occur around other events which many London.pm members may frequent (i.e.
+		people may meet up at Linux conferences or even to go see the latest
+		geek movie..)</p>
+
+	<p>If you are visiting London and cannot join us for a social meeting, consider posting to the main list so a ad-hoc meeting can be arranged.</p>
+
+	<p>One regular ad-hoc meeting (if you'll excuse the tautology) is the
+		<a href="/about/faq.html#heretics">Heretics</a> pub meet which occurs
+		on any Thursday 1st.</p>
+
+	<h2>Open for all</h2>
+
+	<p>No matter which meeting you choose, there's no requirement that you are
+		proficient with Perl in order to turn up (in fact, several of our
+		regular attendees haven't been technical at all, they've just enjoyed
+		our company.)  We're a welcoming lot (we even have a friendly
+		<a href="/conduct/">code of conduct</a> for all our meetings.)  In short:
+		we look forward to seeing you.</p>
 
 
 [% END %]
